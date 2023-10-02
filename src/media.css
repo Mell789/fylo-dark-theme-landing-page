@@ -1,0 +1,9 @@
+
+
+@media screen and (min-width:1024px)
+{
+    span.logo img {
+        width: 176px;
+        height: 52px;
+    }
+}
