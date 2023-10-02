@@ -7,3 +7,17 @@
         height: 52px;
     }
 }
+@media screen and (min-width:1200px)
+{
+    section.getStarted {
+        padding-left: 360px !important;
+        padding-right: 360px !important;
+    }
+}
+@media screen and (min-width:1900px)
+{
+    section.getStarted {
+        padding-left: 420px !important;
+        padding-right: 420px !important;
+    }
+}
