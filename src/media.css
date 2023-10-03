@@ -6,12 +6,26 @@
         width: 176px;
         height: 52px;
     }
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 100px;
+    }
 }
 @media screen and (min-width:1200px)
 {
     section.getStarted {
         padding-left: 360px !important;
         padding-right: 360px !important;
+    }
+    section.sectionIcons {
+        padding-left: 280px !important;
+        padding-right: 280px !important;
+    }
+    .grid {
+        column-gap: 150px;
+    }
+    .icon-img {
+        height: 104px;
     }
 }
 @media screen and (min-width:1900px)

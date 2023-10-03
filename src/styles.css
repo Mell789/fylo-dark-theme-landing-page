@@ -20,3 +20,16 @@ span.logo {
     display: inline-block;
 }
 
+
+/* main */
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 80px;
+}
+.icon-img {
+    width: auto;
+    height: 80px;
+}
