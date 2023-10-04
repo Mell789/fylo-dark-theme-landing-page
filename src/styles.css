@@ -22,11 +22,24 @@ body {
 
 span.logo {
     display: inline-block;
+    cursor: pointer;
+}
+
+.navigation a:hover {
+    text-decoration: underline !important;
+    color: #fff !important;
+    font-weight: 700;
 }
 
 
 /* main */
 
+/* getstarted */
+.getStartedLink:hover {
+    background-image: none;
+    background-color: #8ADAE3;
+    ;
+}
 
 .grid {
     display: grid;
@@ -47,4 +60,11 @@ span.logo {
 .arrow-img {
     height: 24px;
     width: 24px;
+}
+.seehow:hover {border-bottom-color: #fff !important;}
+.seehow:hover * {
+    color: #fff;
+}
+.seehow:hover img {
+    /* filter: invert(0%) sepia(91%) saturate(7493%) hue-rotate(180deg) brightness(103%) contrast(100%); */
 }
