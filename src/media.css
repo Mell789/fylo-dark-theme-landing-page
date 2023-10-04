@@ -34,6 +34,12 @@
     .stayproductiveimg {
         /* height: 463px; */
     }
+    .quotes-mobile {
+        width: 55px;
+        height: 45px;
+        top: -35px;
+        left: -8px;
+    }
 }
 @media screen and (min-width:1600px)
 {
