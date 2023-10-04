@@ -21,11 +21,18 @@
         padding-left: 280px !important;
         padding-right: 280px !important;
     }
+    section.stayProductive {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
     .grid {
         column-gap: 150px;
     }
     .icon-img {
         height: 104px;
+    }
+    .stayproductiveimg {
+        height: 463px;
     }
 }
 @media screen and (min-width:1900px)

@@ -1,9 +1,13 @@
 :root {
     --button-blue: linear-gradient(135deg, #63E1D9 -42.11%, #34A0CD 100%);
+    --link-blue: #62E0D9;
 }
 
 .btnblue {
     background-image: var(--button-blue);
+}
+.linkblue {
+    color: var(--link-blue);
 }
 
 body {
@@ -32,4 +36,14 @@ span.logo {
 .icon-img {
     width: auto;
     height: 80px;
+}
+
+.stayproductiveimg {
+    width: auto;
+    height: 280px;
+}
+
+.arrow-img {
+    height: 24px;
+    width: 24px;
 }
