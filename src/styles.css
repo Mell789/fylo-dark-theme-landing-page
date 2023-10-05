@@ -93,3 +93,12 @@ section.profiles {
     width: 30px;
     height: 20px;
 }
+
+/* footer */
+.footer-logo {
+    width: 108px;
+    height: 31px;
+}
+.about-link:hover {
+    font-weight: 700 !important;
+}
