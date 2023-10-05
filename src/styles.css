@@ -98,7 +98,20 @@ section.profiles {
 .footer-logo {
     width: 108px;
     height: 31px;
+    cursor: pointer;
 }
 .about-link:hover {
     font-weight: 700 !important;
+}
+
+.widthFixer {
+    width: 90px;
+}
+
+.infoparagprafh {
+    max-width: 340px;
+}
+
+.socialicon:hover {
+    cursor: pointer;
 }
