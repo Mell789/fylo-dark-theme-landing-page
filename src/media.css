@@ -1,7 +1,39 @@
 
-
+@media screen and (min-width:375px){
+    .bgcurvy {
+        top: 5.6%;
+    }
+    .backgroundblack {
+        top: 9.7%;
+    }
+}
+@media screen and (min-width:425px){
+    .bgcurvy {
+        top: 6.5%;
+    }
+    .backgroundblack {
+        top: 11.1%;
+    }
+}
+@media screen and (min-width:768px){
+    .bgcurvy {
+        top: 6.7%;
+    }
+    .backgroundblack {
+        top: 15%;
+    }
+}
 @media screen and (min-width:1024px)
 {
+
+    .bgcurvy {
+        top: 10.1%;
+    }
+    .backgroundblack {
+        top: 22%;
+    }
+
+
     span.logo img {
         width: 176px;
         height: 52px;
@@ -13,6 +45,15 @@
 }
 @media screen and (min-width:1200px)
 {
+
+    .bgcurvy {
+        top: 10.1%;
+    }
+    .backgroundblack {
+        top: 22%;
+    }
+
+
     section.getStarted {
         padding-left: 360px !important;
         padding-right: 360px !important;

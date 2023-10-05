@@ -2,6 +2,7 @@
     --button-blue: linear-gradient(135deg, #63E1D9 -42.11%, #34A0CD 100%);
     --link-blue: #62E0D9;
     --footer-bg: #0B1524;
+    --bgcolor: #1B2330;
 }
 
 .btnblue {
@@ -12,6 +13,9 @@
 }
 .footerbg {
     background-color: var(--footer-bg);
+}
+.bgcolor {
+    background-color: var(--bgcolor);
 }
 
 body {
@@ -37,6 +41,24 @@ span.logo {
 
 
 /* main */
+
+.bgcurvy {
+    position: absolute;
+    top: 4.4%;
+    left: 0;
+    z-index: -10;
+    width: 100%;
+}
+.backgroundblack {
+    position: absolute;
+    top: 7.8%;
+    left: 0;
+    z-index: -10;
+    background-color: #181f2b;
+    width: 100%;
+    height: 100%;
+}
+
 
 /* getstarted */
 .getStartedLink:hover {
@@ -98,7 +120,26 @@ section.profiles {
 .footer-logo {
     width: 108px;
     height: 31px;
+    cursor: pointer;
 }
 .about-link:hover {
     font-weight: 700 !important;
+}
+
+.widthFixer {
+    width: 90px;
+}
+
+.infoparagprafh {
+    max-width: 340px;
+}
+
+.socialicon:hover {
+    cursor: pointer;
+}
+
+.getEarlyAccess {
+    position: absolute;
+    left: 20%;
+    top: -20%;
 }
