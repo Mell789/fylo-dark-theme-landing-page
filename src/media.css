@@ -1,36 +1,58 @@
 
+.bgcurvy {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    z-index: -10;
+    width: 100%;
+    height: 120px;
+}
+.backgroundblack {
+    position: absolute;
+    top: 268px;
+    left: 0;
+    z-index: -10;
+    background-color: #181f2b;
+    width: 100%;
+    height: 100%;
+}
+
+
 @media screen and (min-width:375px){
     .bgcurvy {
-        top: 5.6%;
+        top: 183px;
     }
     .backgroundblack {
-        top: 9.7%;
+        top: 301px;
     }
 }
 @media screen and (min-width:425px){
     .bgcurvy {
-        top: 6.5%;
+        top: 216px;
     }
     .backgroundblack {
-        top: 11.1%;
+        top: 334px;
     }
 }
 @media screen and (min-width:768px){
     .bgcurvy {
-        top: 6.7%;
+        width: 100%;
+        height: 240px;
+        top: 346px;
     }
     .backgroundblack {
-        top: 15%;
+        top: 580px;
     }
 }
 @media screen and (min-width:1024px)
 {
 
     .bgcurvy {
-        top: 10.1%;
+        top: 490px;
+        height: 400px;
     }
     .backgroundblack {
-        top: 22%;
+        top: 885px;
     }
 
 
@@ -47,10 +69,11 @@
 {
 
     .bgcurvy {
-        top: 10.1%;
+        top: 640px;
+        height: 330px;
     }
     .backgroundblack {
-        top: 22%;
+        top: 960px;
     }
 
 
