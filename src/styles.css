@@ -26,6 +26,10 @@ body {
     color: #fff;
 }
 
+.mainContainer {
+    overflow: hidden;
+}
+
 /* nav */
 
 span.logo {
@@ -124,7 +128,26 @@ section.profiles {
 }
 
 .getEarlyAccess {
-    position: absolute;
-    left: 20%;
-    top: -20%;
+    transform: translateY(-180px);
+    border-radius: 10px;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.getAccessInput {
+    height: 48px;
+    border: none;
+}
+.getAccessButton {
+    background-image: linear-gradient(132deg, #63E1D9 -31.85%, #34A0CD 100%);
+    color: #fff;
+}
+.getAccessButton:hover {
+    background-image: none;
+    background-color: #8ADAE3;
+}
+
+.inputError {
+    color: #FF4242;
 }

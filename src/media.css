@@ -64,6 +64,10 @@
         grid-template-columns: 1fr 1fr;
         column-gap: 100px;
     }
+
+    .getEarlyAccess {
+        transform: translateY(-135px);
+    }
 }
 @media screen and (min-width:1200px)
 {
