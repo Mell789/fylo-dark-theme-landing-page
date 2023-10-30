@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-fylo-dark-theme-landing-page-Z-fPwdeV1O](https://www.frontendmentor.io/solutions/responsive-fylo-dark-theme-landing-page-Z-fPwdeV1O)
 - Live Site URL: [https://mell789.github.io/fylo-dark-theme-landing-page/](https://mell789.github.io/fylo-dark-theme-landing-page/)
 
 
